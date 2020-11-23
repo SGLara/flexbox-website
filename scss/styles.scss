@@ -190,4 +190,17 @@ footer {
     justify-content: flex-start;
     height: 120px;
     align-items: center;
+    border-top: 1px solid $grayshadow;
+
+    .logo {
+        opacity: 0.5;
+        flex: {
+            basis: auto;
+            grow: 1;
+        }
+    }
+
+    .info {
+        flex-grow: 1;
+    }
 }
